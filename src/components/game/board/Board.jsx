@@ -54,10 +54,10 @@ export default function Board({squares, xIsNext, onPlay, onRestart}){
 
   return (
     <div className={styles.bord}>
-      <h2>{status}</h2>
+      <h2 className={styles.status}>{status}</h2>
       <button className={styles.restartBtn} onClick={() => {
         onRestart();
-      }}>Restart</button>
+      }}>Clearing history</button>
 
       <div className={styles.board_row}>
         <Square onSquareClick={() => handleClick(0)} value={squares[0]} />
