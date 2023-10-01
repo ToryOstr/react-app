@@ -1,0 +1,21 @@
+.square {
+  float: left;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #023c4d;
+  background-color: azure;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(2, 3, 69);
+}
+
+@media (max-width: 500px) {
+  .square{
+    width: 80px;
+    height: 80px;
+  }
+}
