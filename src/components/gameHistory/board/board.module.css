@@ -1,0 +1,36 @@
+.bord{
+display: block;
+margin: 0;
+}
+.board_row {
+  display: flex;
+  width: 180px;
+  height: 60px;
+  margin: 0;
+}
+.restartBtn {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  border: 1px solid #023c4d;
+  background-color: rgb(255, 220, 23);
+  border-radius: 5px;
+  color: rgb(2, 3, 69);
+  font-weight: bold;
+  transition: 0.3s;
+}
+.restartBtn:hover{
+  background-color: rgb(255, 68, 43);
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .bord{
+    margin: 0 auto;
+  }
+  
+  .board_row{
+    width: 240px;
+    height: 80px;
+  }
+}
