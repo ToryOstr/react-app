@@ -1,5 +1,5 @@
 import React from 'react';
-import Game from '../gameHistory/Game';
+import Game from '../game/Game';
 
 
 export default function App() {
