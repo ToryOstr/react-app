@@ -43,7 +43,7 @@ export default function Game() {
     }
   });
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Welcome to Tic-Tac-Toe!</h1>
       <div className={styles.game}>
         <Board
